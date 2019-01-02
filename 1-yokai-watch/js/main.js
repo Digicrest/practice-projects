@@ -64,7 +64,7 @@ const squash_name = name => $.trim(name).split(' ').join('');
 
 function build_yokai_div(yokai) {
     const images = "https://raw.githubusercontent.com/Digicrest/practice-projects/master/1-yokai-watch/res/images/yokai"
-    const image_path = `${images}/${yokai.tribe}/${yokai.rank}/${yokai.name}.png`;
+    const image_path = `${images}/${yokai.tribe}/${yokai.rank}/${yokai.name.split(" ").join("_")}.png`;
 
     let colors = set_color(yokai.tribe);
 
