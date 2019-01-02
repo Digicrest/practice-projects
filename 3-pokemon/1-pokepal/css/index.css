@@ -1,0 +1,154 @@
+#main-content {
+    /*background-color: lavender;*/
+    padding-top: 20px;
+}
+
+
+#pokemon-list {
+    /*background-color: plum;*/
+}
+
+#left-side-panel, 
+#right-side-panel {
+    /*background-color: lightblue;*/
+    padding-top: 20px;
+}
+
+body {
+    background-color: linen;
+}
+
+#main-container {
+    background-image: url("../img/wallpaper_tile.png");
+    /*border: 4px dashed #FB6E9D;*/
+    margin-top: 20px;
+    box-shadow: -5px 5px 15px lightpink;
+}
+
+#profile, 
+#selected-team, 
+#type-chart, 
+#my-teams  {
+    /*background-color: lightcyan;*/
+}
+
+#searchbar {
+    margin-bottom: 10px;
+    height: 85px;
+    overflow-y: hidden;
+}
+
+.btn-round-sm {
+    border-radius: 15px;
+}
+
+.row {
+    margin: 20px;
+}
+
+/*///////////////////////////*/
+
+#profile {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+}
+
+.pokemon-tile {
+    margin: 5px;
+}
+
+#selected-team {
+    max-height: 460px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#pokemon-list {
+    text-align:center;
+    margin: 0 auto;
+    width: 85%;
+    height: 500px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.pokemon-tile-parent {
+    width: 33%;
+}
+
+.team-member-img {
+    height: 125px;
+}
+
+/* .pokemon-tile-inactive {
+    
+} */
+
+.autocomplete-button {
+    width: auto;
+    margin: 10px;
+}
+
+#chosen-amount {
+    margin-top: 10px;
+    text-align: center;
+    color: #333;
+}
+
+#chosen-amount > p {
+    display: inline;
+}
+
+#profile > .btn {
+    min-height: 30px;
+    border-radius: 0; 
+    transition: all 0.5s;
+    background: #FB6E9D;
+    line-height: normal;
+}
+
+#search-result-count {
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 10px;
+    color: #777;
+    /*float: right;*/
+    /*display: inline;*/
+}
+
+#online-users {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#filters {
+    margin-bottom: 10px;
+}
+
+#gen-select {
+    margin: 10px;
+}
+
+.card-img-top {
+    width: 100px;
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+    height: 120px;
+    margin-top: 10px;
+}
+
+.card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}

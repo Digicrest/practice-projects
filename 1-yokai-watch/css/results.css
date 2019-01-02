@@ -1,0 +1,35 @@
+#results {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    overflow: auto;
+    
+    margin-top: 10%;
+    max-height: 27vh;
+}
+
+.japanese {
+    font-size: .7rem;
+}
+
+.card {
+    width: 28%;
+    margin: 10px;
+    
+    text-align: center;
+    color: white;
+    
+    background-color: black;
+}
+
+.card img {
+    max-width: 60%;
+    max-height: 35%;
+
+    margin: 0 auto;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    
+    border-radius: 50%;
+    background-color: white;
+}

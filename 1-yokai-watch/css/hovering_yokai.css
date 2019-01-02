@@ -1,0 +1,19 @@
+#yokai {
+    margin-top: 20px;
+    max-height: 200px;
+    animation: float 1.5s infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translate3d(0, 0, 0);
+        animation-timing-function: ease-in;
+    }
+
+    50% {
+        transform: translate3d(0, 15px, 0);
+        animation-timing-function: ease-out
+    }
+
+    100% { transform: translate3d(0, 0, 0) }
+}

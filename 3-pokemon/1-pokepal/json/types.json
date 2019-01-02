@@ -1,0 +1,100 @@
+{
+    "Type": [
+        {
+            "Name": "Normal",
+            "UnaffectedBy": ["Ghost"],
+            "WeakTo": ["Fighting"]
+        },
+        {
+            "Name": "Grass",
+            "Resists": ["Electric", "Grass", "Ground", "Water"],
+            "WeakTo": ["Bug", "Fire", "Flying", "Ice", "Poison"]
+        },
+        {
+            "Name": "Fire",
+            "Resists": ["Fairy", "Bug", "Fire", "Grass", "Ice", "Steel"],
+            "WeakTo": ["Ground", "Rock", "Water"]
+        },
+        {
+            "Name": "Water",
+            "Resists": ["Steel", "Ice", "Water", "Fire"],
+            "WeakTo": ["Electric", "Grass"]
+        },
+        {
+            "Name": "Fighting",
+            "Resists": ["Bug", "Dark", "Rock"],
+            "WeakTo": ["Fairy", "Flying", "Psychic"]
+        },
+        {
+            "Name": "Flying",
+            "UnaffectedBy": ["Ground"],
+            "Resists": ["Bug", "Fighting", "Grass"],
+            "WeakTo": ["Electric", "Ice", "Rock"]
+        },
+        {
+            "Name": "Poison",
+            "Resists": ["Bug", "Fighting", "Poison", "Grass", "Fairy"],
+            "WeakTo": ["Psychic", "Ground"]
+        },
+        {
+            "Name": "Ground",
+            "UnaffectedBy": ["Electric"],
+            "Resists": ["Poison", "Rock"],
+            "WeakTo": ["Ice", "Grass", "Water"]
+        },
+        {
+            "Name": "Rock",
+            "Resists": ["Normal", "Fire", "Flying", "Poison"],
+            "WeakTo": ["Fighting", "Grass", "Ground", "Steel", "Water"]
+        },
+        {
+            "Name": "Bug",
+            "Resists": ["Fighting", "Grass", "Ground"],
+            "WeakTo": ["Fire", "Flying", "Rock"]
+        },
+        {
+            "Name": "Ghost",
+            "UnaffectedBy": ["Normal","Fighting"],
+            "Resists": ["Bug", "Poison"],
+            "WeakTo": ["Ghost", "Dark"]
+        },
+        {
+            "Name": "Electric",
+            "Resists": ["Electric", "Flying", "Steel"],
+            "WeakTo": ["Ground"]
+        },
+        {
+            "Name": "Psychic",
+            "Resists": ["Fighting", "Psychic"],
+            "WeakTo": ["Bug", "Dark", "Ghost"]
+        },
+        {
+            "Name": "Ice",
+            "Resists": ["Ice"],
+            "WeakTo": ["Fighting", "Fire", "Rock", "Steel"]
+        },
+        {
+            "Name": "Dragon",
+            "Resists": ["Electric", "Fire", "Grass", "Water"],
+            "WeakTo": ["Dragon", "Fairy", "Ice"]
+        },
+        {
+            "Name": "Dark",
+            "UnaffectedBy": ["Psychic"],
+            "Resists": ["Dark", "Ghost"],
+            "WeakTo": ["Bug", "Fighting", "Fairy"]
+        },
+        {
+            "Name": "Steel",
+            "UnaffectedBy": ["Poison"],
+            "Resists": ["Bug", "Dragon", "Flying", "Grass", "Ice", "Normal", "Psychic", "Rock", "Steel", "Fairy"],
+            "WeakTo": ["Fighting", "Fire", "Ground"]
+        },
+        {
+            "Name": "Fairy",
+            "UnaffectedBy": ["Dragon"],
+            "Resists": ["Fighting", "Bug", "Dark"],
+            "WeakTo": ["Poison", "Steel"]
+        }
+    ]
+}

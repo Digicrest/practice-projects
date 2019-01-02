@@ -1,0 +1,42 @@
+#warning-text {
+    width: 70%;
+    text-align: center;
+    display: inline-block;
+    color: rebeccapurple;
+    border: 2px dashed tomato;
+}
+
+#warning-image-div {
+    display: inline-block;
+}
+
+#warning-image {
+    max-width: 150px;
+    margin: 20px;
+    animation: myAnimation 2s infinite;
+    vertical-align: 0%;
+}
+
+/* #haunted {
+    position: relative;
+    float: right;
+    width: 50px;
+    left: -18px;
+    animation: myAnimation 2s infinite;
+} */
+
+@keyframes myAnimation {
+    0% {
+        transform: translate3d(10px, 0px, 0);
+        animation-timing-function: ease-in;
+    }
+
+    50% {
+        transform: translate3d(10px, 10px, 0);
+        animation-timing-function: ease-out
+    }
+
+    100% {
+        transform: translate3d(10px, 0px, 0)
+    }
+}

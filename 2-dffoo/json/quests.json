@@ -1,0 +1,126 @@
+{
+    "chapter5_hardmode": [
+        {
+            "Name": "A Vow to Protect",
+            "Level": 35,
+            "Battles": 1,
+            "Enemies": ["Ghost", "Ghost", "Floating Eye"],
+            "Challenges": [
+                ["3200 Score", "3000 gil"],
+                ["Clear without any KOs", "1000 gil"],
+                ["Clear within 25 turns", "1000 gil"],
+                ["Clear without taking any Breaks", "Radiant Crystal x75"]
+            ]
+        },
+        {
+            "Name": "High in Pursuit of Truth Pt. 2",
+            "Level": 35,
+            "Battles": 2,
+            "Enemies": ["Floating Eye", "Goblin"],
+            "Challenges": [
+                ["4800 Score", "40 gems"],
+                ["Clear without any KOs", "20 gems"],
+                ["Clear within 25 turns", "20 gems"],
+                ["Clear without taking any Breaks", "Blue Crystal(2) x25"]
+            ]
+        },
+        {
+            "Name": "To the Knight's Quarters Pt. 2",
+            "Level": 35,
+            "Battles": 2,
+            "Enemies": ["Thunder Flan"],
+            "Challenges": [
+                ["4700 Score", "40 gems"],
+                ["Clear without any KOs", "20 gems"],
+                ["Clear within 30 turns", "20 gems"],
+                ["Clear without taking any Breaks", "Green Crystal(2) x25"]
+            ]
+        },
+        {
+            "Name": "The Wild Rose Grasslands Pt. 1",
+            "Level": 32,
+            "Battles": 1,
+            "Enemies": ["Flan", "Flan"],
+            "Challenges": [
+                ["6600 Score", "40 gems"],
+                ["Clear without any KOs", "20 gems"],
+                ["Clear within 15 turns", "20 gems"],
+                ["Clear without taking any Breaks", "Red Crystal(2) x25"]
+            ]
+        },
+        {
+            "Name": "The Wild Rose Grasslands Pt. 2",
+            "Level": 35,
+            "Battles": 2,
+            "Enemies": ["Wolf", "Wolf"],
+            "Challenges": [
+                ["6000 Score", "40 gems"],
+                ["Clear without any KOs", "20 gems"],
+                ["Clear within 20 turns", "20 gems"],
+                ["Clear without taking any Breaks", "Red Crystal(2) x25"]
+            ]
+        },
+        {
+            "Name": "5-6 Secluded Greenwood Pt. 1",
+            "Level": 35,
+            "Battles": 2,
+            "Enemies": ["Thunder Flan", "Goblin"],
+            "Challenges": [
+                ["8500 Score", "40 gems"],
+                ["Clear without any KOs", "20 gems"],
+                ["Clear within 20 turns", "20 gems"],
+                ["Clear without taking any Breaks", "Attack Orb(3) x50"]
+            ]
+        },
+        {
+            "Name": "5-7 Secluded Greenwood Pt. 2",
+            "Level": 35,
+            "Battles": 2,
+            "Enemies": ["Thunder Flan", "Goblin"],
+            "Challenges": [
+                ["9300 Score", "40 gems"],
+                ["Clear without any KOs", "20 gems"],
+                ["Clear within 20 turns", "20 gems"],
+                ["Clear without taking any Breaks", "Gale Adamite x25"]
+            ]
+        },
+        {
+            "Name": "5-12 Of Zeal and Guile Pt. 1",
+            "Level": 35,
+            "Battles": 2,
+            "Enemies": ["Ghost", "Floating Eye"],
+            "Challenges": [
+                ["7000 Score", "40 gems"],
+                ["Clear without any KOs", "20 gems"],
+                ["Clear within 30 turns", "20 gems"],
+                ["Clear without taking any Breaks", "Spark Adamite x25"]
+            ]
+        }
+    ],
+    "events": [
+        {
+            "Name": "A Lion's Heart Pt. 5",
+            "Level": 45,
+            "Battles": 5,
+            "Enemies": ["Wolf", "Alpha Wolf", "Wolf"],
+            "Challenges": [
+                ["9000 Score", "50 gems"],
+                ["Clear without any KOs", "50 gems"],
+                ["Clear within 125 turns", "50 gems"],
+                ["Clear without taking any Breaks", "Armor Orb(4) x10"]
+            ]
+        },
+        {
+            "Name": "Unpleasant Odors [Co-op]",
+            "Level": 45,
+            "Battles": 3,
+            "Enemies": ["Malboro"],
+            "Challenges": [
+                ["6000 Score", "50 gems"],
+                ["Clear without any KOs", "50 gems"],
+                ["Clear within 75 turns", "50 gems"],
+                ["Take 6000 or less HP damage", "50 gems"]
+            ]
+        }
+    ]
+}

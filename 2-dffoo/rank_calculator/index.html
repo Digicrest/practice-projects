@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DFFOO: Rank Calculator</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./css/classes.css">
+        <link rel="stylesheet" href="./css/moogol.css">
+        <script src="./js/libs/jquery.js"></script>
+        <script src="./js/main.js"></script>
+    </head>
+    <body>
+        <div id="loading"></div>
+        <div id="main">
+            <div id="moogle">
+                <img src="https://goo.gl/6PmfxS" alt="" id="moogol" onclick="kupo()">
+                <img src="" alt="" id="kupo">
+            </div>
+            <div id="lvl_calculator">   
+                
+                <div id="crystals_used" class="crystal_info">
+                    <div class="tier">
+                        <label>Tier 1</label>
+                        <p name="small"></p>
+                    </div>
+                    
+                    <div class="tier">
+                        <label>Tier 2</label>
+                        <p name="medium"></p>
+                    </div>
+
+                    <div class="tier">
+                        <label>Tier 3</label>
+                        <p name="large"></p>
+                    </div>
+                </div>
+                <div id="crystals_needed" class="crystal_info">
+                    <div class="tier">
+                        <label>Tier 1</label>
+                        <p name="small"></p>
+                    </div>
+                    
+                    <div class="tier">
+                        <label>Tier 2</label>
+                        <p name="medium"></p>
+                    </div>
+
+                    <div class="tier">
+                        <label>Tier 3</label>
+                        <p name="large"></p>
+                    </div>
+                </div>        
+                <div id="selected_hero">
+                    <img src="./css/images/unselected.jpg" alt="">
+                    <p>None Selected</p>
+                </div>
+
+                <input type="text" id="txt_current_level" onkeyup="update_crystals()" placeholder="Current Level">
+                <input type="text" id="txt_desired_level" onkeyup="update_crystals()" placeholder="Destination Level">
+            </div>
+        </div>
+    </body>
+</html>

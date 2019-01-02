@@ -1,0 +1,97 @@
+{
+    "Normal": {
+        "background": "#c6c6a7",
+        "border": "#6d6d4e",
+        "hover": "#a8a878"
+    },
+    "Grass": {
+        "background": "#a7db8d",
+        "border": "#4e8234",
+        "hover": "#78c850"
+    }, 
+    "Fire": {
+        "background": "#f5ac78",
+        "border": "#9c531f",
+        "hover": "#f08030"
+    },
+    "Water": {
+        "background": "#9db7f5",
+        "border": "#445e9c",
+        "hover": "#6890f0"
+    }, 
+    "Fighting": {
+        "background": "#d67873",
+        "border": "#7d1f1a",
+        "hover": "#c03028"
+    }, 
+    "Flying": {
+        "background": "#c6b7f5",
+        "border": "#6d5e9c",
+        "hover": "#a890f0"
+    }, 
+    "Poison": {
+        "background": "#c183c1",
+        "border": "#682a68",
+        "hover": "#a040a0"
+    }, 
+    "Ground": {
+        "background": "#ebd69d",
+        "border": "#927d44",
+        "hover": "#e0c068"
+    }, 
+    "Rock": {
+        "background": "#d1c17d",
+        "border": "#786824",
+        "hover": "#b8a038"
+    }, 
+    "Bug": {
+        "background": "#c6d16e",
+        "border": "#6d7815",
+        "hover": "#a8b820"
+    }, 
+    "Ghost": {
+        "background": "#a292bc",
+        "border": "#493963",
+        "hover": "#705898"
+    }, 
+    "Electric": {
+        "background": "#fae078",
+        "border": "#a1871f",
+        "hover": "#f8d030"
+    }, 
+    "Psychic": {
+        "background": "#fa92b2",
+        "border": "#a13959",
+        "hover": "#f85888"
+    }, 
+    "Ice": {
+        "background": "#bce6e6",
+        "border": "#638d8d",
+        "hover": "#98d8d8"
+    }, 
+    "Dragon": {
+        "background": "#a27dfa",
+        "border": "#4924a1",
+        "hover": "#7038f8"
+    }, 
+    "Dark": {
+        "background": "#a29288",
+        "border": "#49392f",
+        "hover": "#705848"
+    }, 
+    "Steel": {
+        "background": "#d1d1e0",
+        "border": "#787887",
+        "hover": "#b8b8d0"
+    }, 
+    "Fairy": {
+        "background": "#f4bdc9",
+        "border": "#9b6470",
+        "hover": "#ee99ac"
+    },
+    "Unknown": {
+        "background":"#68a090",
+        "border":"#44685e",
+        "hover": "#000"
+    }
+}

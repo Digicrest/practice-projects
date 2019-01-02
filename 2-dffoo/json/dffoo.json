@@ -1,0 +1,373 @@
+{ 
+    "heroes": [
+         {
+             "name": "Warrior of Light",
+             "crystal": "white",
+             "icon": "https://vignette.wikia.nocookie.net/dffoo/images/b/b2/Warrior_of_Light.jpg/revision/latest?cb=20170725181734",
+             "role": "defensive",
+             "weapon": "sword"
+         },
+         {
+             "name": "Hope",
+             "crystal": "white",
+             "icon": "https://vignette.wikia.nocookie.net/dffoo/images/0/00/Hope.jpg/revision/latest?cb=20170725182953",
+             "role": "support",
+             "weapon": "throwing"
+         },
+         {
+             "name": "Yuna",
+             "crystal": "white",
+             "icon": "https://vignette.wikia.nocookie.net/dffoo/images/0/0b/Yuna.jpg/revision/latest?cb=20170725182801",
+             "role": "support",
+             "weapon": "staff"
+         },
+         {
+             "name": "Penelo",
+             "crystal": "white",
+             "icon": "https://vignette.wikia.nocookie.net/dffoo/images/1/1b/Penelo.jpg/revision/latest?cb=20170725182919",
+             "role": "support",
+             "weapon": "dagger"
+         },
+         {
+            "name": "Eiko",
+            "crystal": "white",
+            "icon": "https://vignette.wikia.nocookie.net/dffoo/images/b/b2/Eiko.jpg/revision/latest?cb=20170725182729",
+            "role": "support",
+            "weapon": "staff"
+         },
+         {
+            "name": "Vincent",
+            "crystal": "white",
+            "icon": "https://vignette.wikia.nocookie.net/dffoo/images/b/b5/Vincent.jpg/revision/latest?cb=20170725182618",
+            "role": "debuffer",
+            "weapon": "gun"
+         },
+         {
+            "name": "Seymour",
+            "crystal": "white",
+            "icon": "https://vignette.wikia.nocookie.net/dffoo/images/1/1d/Seymour.jpg/revision/latest?cb=20170725182832",
+            "role": "attacker",
+            "weapon": "staff"
+         },
+         {
+             "name": "Vivi",
+             "crystal": "black",
+             "icon": "https://vignette.wikia.nocookie.net/dffoo/images/c/c8/Vivi.jpg/revision/latest?cb=20170725182710",
+             "role": "attacker",
+             "weapon": "staff"
+         },
+         {
+             "name": "Cecil",
+             "crystal": "black",
+             "icon": "https://vignette.wikia.nocookie.net/dffoo/images/1/12/Dark_Cecil.jpg/revision/latest?cb=20170725181815",
+             "role": "attacker",
+             "weapon": "great sword"
+         },
+         {
+             "name": "King",
+             "crystal": "black",
+             "icon": "https://vignette.wikia.nocookie.net/dffoo/images/4/49/King.jpg/revision/latest?cb=20170725183129",
+             "role": "attacker",
+             "weapon": "gun"
+         },
+         {
+             "name": "Shadow",
+             "crystal": "black",
+             "icon": "https://vignette.wikia.nocookie.net/dffoo/images/d/df/Shadow.jpg/revision/latest?cb=20170725182453",
+             "role": "attacker",
+             "weapon": "throwing"
+         },
+         {
+             "name": "Squall",
+             "crystal": "black",
+             "icon": "https://vignette.wikia.nocookie.net/dffoo/images/4/41/Squall.jpg/revision/latest?cb=20170725182636",
+             "role": "attacker",
+             "weapon": "great sword"
+         },
+         {
+            "name": "Setzer",
+            "crystal": "black",
+            "icon": "https://vignette.wikia.nocookie.net/dffoo/images/5/52/Setzer.jpg/revision/latest?cb=20170725182500",
+            "role": "attacker",
+            "weapon": "throwing"
+         },
+         {
+            "name": "Shantotto",
+            "crystal": "black",
+            "icon": "https://vignette.wikia.nocookie.net/dffoo/images/2/21/Shantotto.jpg/revision/latest?cb=20170725182848",
+            "role": "attacker",
+            "weapon": "staff"
+         },
+         {
+            "name": "Sabin",
+            "crystal": "black",
+            "icon": "https://vignette.wikia.nocookie.net/dffoo/images/4/40/Sabin.jpg/revision/latest?cb=20170725182510",
+            "role": "attacker",
+            "weapon": "fist"
+         },
+         {
+             "name": "Tifa",
+             "crystal": "orange",
+             "icon": "https://vignette.wikia.nocookie.net/dffoo/images/c/cc/Tifa.jpg/revision/latest?cb=20170725182603",
+             "role": "attacker",
+             "weapon": "fist"
+         },
+         {
+             "name": "Bartz",
+             "crystal": "orange",
+             "icon": "https://vignette.wikia.nocookie.net/dffoo/images/0/00/Bartz.jpg/revision/latest?cb=20170725182100",
+             "role": "attacker",
+             "weapon": "sword"
+         },
+         {
+             "name": "Yang",
+             "crystal": "orange",
+             "icon": "https://vignette.wikia.nocookie.net/dffoo/images/0/0c/Yang.jpg/revision/latest?cb=20170725181840",
+             "role": "attacker",
+             "weapon": "fist"
+         },
+         {
+             "name": "Yshtola",
+             "crystal": "orange",
+             "icon": "https://vignette.wikia.nocookie.net/dffoo/images/5/50/Y%27shtola.jpg/revision/latest?cb=20170725183027",
+             "role": "support",
+             "weapon": "staff"
+         },
+         {
+             "name": "Balthier",
+             "crystal": "orange",
+             "icon": "https://vignette.wikia.nocookie.net/dffoo/images/8/86/Balthier.jpg/revision/latest?cb=20170725182927",
+             "role": "attacker",
+             "weapon": "gun"
+         },
+         {
+            "name": "Ramza",
+            "crystal": "orange",
+            "icon": "https://vignette.wikia.nocookie.net/dffoo/images/7/7a/Ramza.jpg/revision/latest?cb=20170725183102",
+            "role": "support",
+            "weapon": "sword"
+         },
+         {
+            "name": "Layle",
+            "crystal": "orange",
+            "icon": "https://vignette.wikia.nocookie.net/dffoo/images/4/49/Layle.jpg/revision/latest?cb=20170725183148",
+            "role": "support",
+            "weapon": "throwing"
+         },
+         {
+             "name": "Rem",
+             "crystal": "green",
+             "icon": "https://vignette.wikia.nocookie.net/dffoo/images/0/01/Rem.jpg/revision/latest?cb=20170725183121",
+             "role": "defensive",
+             "weapon": "dagger"
+         },
+         {
+             "name": "Yda",
+             "crystal": "green",
+             "icon": "https://vignette.wikia.nocookie.net/dffoo/images/b/bc/Yda.jpg/revision/latest?cb=20170725183035",
+             "role": "attacker",
+             "weapon": "fist"
+         },
+         {
+             "name": "Terra",
+             "crystal": "green",
+             "icon": "https://vignette.wikia.nocookie.net/dffoo/images/5/5a/Terra.jpg/revision/latest?cb=20170725182134",
+             "role": "attacker",
+             "weapon": "sword"
+         },
+         {
+             "name": "Steiner",
+             "crystal": "green",
+             "icon": "https://vignette.wikia.nocookie.net/dffoo/images/d/d4/Steiner.jpg/revision/latest?cb=20170725182720",
+             "role": "attacker",
+             "weapon": "great sword"
+         },
+         {
+            "name": "Galuf",
+            "crystal": "green",
+            "icon": "https://vignette.wikia.nocookie.net/dffoo/images/f/fc/Galuf.jpg/revision/latest?cb=20170725182109",
+            "role": "defensive",
+            "weapon": "great sword"
+         },
+         {
+            "name": "Prishe",
+            "crystal": "green",
+            "icon": "https://vignette.wikia.nocookie.net/dffoo/images/e/e4/Prishe.jpg/revision/latest?cb=20170725182903",
+            "role": "attacker",
+            "weapon": "fist"
+         },
+         {
+            "name": "Ace",
+            "crystal": "green",
+            "icon": "https://vignette.wikia.nocookie.net/dffoo/images/0/0f/Ace.jpg/revision/latest?cb=20170725183111",
+            "role": "attacker",
+            "weapon": "throwing"
+         },
+         {
+             "name": "Cloud",
+             "crystal": "blue",
+             "icon": "https://vignette.wikia.nocookie.net/dffoo/images/9/94/Cloud.jpg/revision/latest?cb=20170725182555",
+             "role": "attacker",
+             "weapon": "great sword"
+         },
+         {
+             "name": "Zidane",
+             "crystal": "blue",
+             "icon": "https://vignette.wikia.nocookie.net/dffoo/images/e/e1/Zidane.jpg/revision/latest?cb=20170725182702",
+             "role": "attacker",
+             "weapon": "dagger"
+         },
+         {
+             "name": "Edge",
+             "crystal": "blue",
+             "icon": "https://vignette.wikia.nocookie.net/dffoo/images/7/7d/Edge.jpg/revision/latest?cb=20170725181825",
+             "role": "attacker",
+             "weapon": "dagger"
+         },
+         {
+             "name": "Laguna",
+             "crystal": "blue",
+             "icon": "https://vignette.wikia.nocookie.net/dffoo/images/7/7f/Laguna.jpg/revision/latest?cb=20170725182644",
+             "role": "debuffer",
+             "weapon": "gun"
+         },
+         {
+            "name": "Wakka",
+            "crystal": "blue",
+            "icon": "https://vignette.wikia.nocookie.net/dffoo/images/9/9a/Wakka.jpg/revision/latest?cb=20170725182839",
+            "role": "debuffer",
+            "weapon": "throwing"
+         },
+         {
+            "name": "Tidus",
+            "crystal": "blue",
+            "icon": "https://vignette.wikia.nocookie.net/dffoo/images/7/74/Tidus.jpg/revision/latest?cb=20170725182739",
+            "role": "attacker",
+            "weapon": "sword"
+         },
+         {
+            "name": "Faris",
+            "crystal": "blue",
+            "icon": "https://vignette.wikia.nocookie.net/dffoo/images/4/41/Faris.jpg/revision/latest?cb=20170725182116",
+            "role": "debuffer",
+            "weapon": "dagger"
+         },
+         {
+             "name": "Vaan",
+             "crystal": "red",
+             "icon": "https://vignette.wikia.nocookie.net/dffoo/images/e/e9/Vaan.jpg/revision/latest?cb=20170725182912",
+             "role": "attacker",
+             "weapon": "sword"
+         },
+         {
+             "name": "Yuffie",
+             "crystal": "red",
+             "icon": "https://vignette.wikia.nocookie.net/dffoo/images/3/32/Yuffie.jpg/revision/latest?cb=20170725182611",
+             "role": "support",
+             "weapon": "throwing"
+         },
+         {
+             "name": "Onion Knight",
+             "crystal": "red",
+             "icon": "https://vignette.wikia.nocookie.net/dffoo/images/1/1d/Onion_Knight.jpg/revision/latest?cb=20170725181803",
+             "role": "attacker",
+             "weapon": "sword"
+         },
+         {
+             "name": "Firion",
+             "crystal": "red",
+             "icon": "https://vignette.wikia.nocookie.net/dffoo/images/5/5e/Firion.jpg/revision/latest?cb=20170725181753",
+             "role": "attacker",
+             "weapon": "sword"
+         },
+         {
+             "name": "Sazh",
+             "crystal": "red",
+             "icon": "https://vignette.wikia.nocookie.net/dffoo/images/d/d0/Sazh.jpg/revision/latest?cb=20170725183000",
+             "role": "attacker",
+             "weapon": "gun"
+         },
+         {
+             "name": "Vanille",
+             "crystal": "red",
+             "icon": "https://vignette.wikia.nocookie.net/dffoo/images/4/48/Vanille.jpg/revision/latest?cb=20170725183007",
+             "role": "support",
+             "weapon": "staff"
+         },
+         {
+            "name": "Zell",
+            "crystal": "red",
+            "icon": "https://vignette.wikia.nocookie.net/dffoo/images/f/f3/Zell.jpg/revision/latest?cb=20170725182653",
+            "role": "attacker",
+            "weapon": "fist"
+         }
+    ],
+    "weapon_types": [
+         {
+             "type": "sword",
+             "icon": "https://vignette.wikia.nocookie.net/dffoo/images/5/56/Sword_icon.jpg/revision/latest?cb=20170725180544"
+         },
+         {
+             "type": "bow",
+             "icon": "https://vignette.wikia.nocookie.net/dffoo/images/7/72/Bow_icon.jpg/revision/latest?cb=20170901204338"
+         },
+         {
+             "type": "great sword",
+             "icon": "https://vignette.wikia.nocookie.net/dffoo/images/e/e2/Great_Sword_icon.jpg/revision/latest?cb=20170725180726"
+         },
+         {
+             "type": "dagger",
+             "icon": "https://vignette.wikia.nocookie.net/dffoo/images/7/7e/Dagger_icon.jpg/revision/latest?cb=20170725180743"
+         },
+         {
+             "type": "fist",
+             "icon": "https://vignette.wikia.nocookie.net/dffoo/images/4/4c/Fist_icon.jpg/revision/latest?cb=20170725180756"
+         },
+         {
+             "type": "staff",
+             "icon": "https://vignette.wikia.nocookie.net/dffoo/images/d/d5/Staff_icon.jpg/revision/latest?cb=20170725180810"
+         },
+         {
+             "type": "spear",
+             "icon": "https://vignette.wikia.nocookie.net/dffoo/images/e/ed/Spear_icon.jpg/revision/latest?cb=20170901204232"
+         },
+         {
+             "type": "whip",
+             "icon": "https://vignette.wikia.nocookie.net/dffoo/images/5/51/Whip_icon.JPG/revision/latest?cb=20171118223646"
+         },
+         {
+             "type": "throwing",
+             "icon": "https://vignette.wikia.nocookie.net/dffoo/images/2/23/Throwing_icon.jpg/revision/latest?cb=20170725180832"
+         },
+        {
+            "type": "gun",
+            "icon": "https://vignette.wikia.nocookie.net/dffoo/images/2/28/Gun_icon.jpg/revision/latest?cb=20170725180850"
+        }
+    ],
+    "crystals": [
+        {
+            "color": "white",
+            "icon": "https://vignette.wikia.nocookie.net/dffoo/images/d/db/White_Crystal.jpg/revision/latest?cb=20170725221343"
+        },
+        {
+            "color": "black",
+            "icon": "https://vignette.wikia.nocookie.net/dffoo/images/2/2d/Purple_Crystal.jpg/revision/latest?cb=20170726064132"
+        },
+        {
+            "color": "red",
+            "icon": "https://vignette.wikia.nocookie.net/dffoo/images/2/28/Red_Crystal.jpg/revision/latest?cb=20170726064138"
+        },
+        {
+            "color": "blue",
+            "icon": "https://vignette.wikia.nocookie.net/dffoo/images/0/09/Blue_Crystal.jpg/revision/latest?cb=20170726064116"
+        },
+        {
+            "color": "orange",
+            "icon": "https://vignette.wikia.nocookie.net/dffoo/images/c/c7/Yellow_Crystal.jpg/revision/latest?cb=20170726064044"
+        },
+        {
+            "color": "green",
+            "icon": "https://vignette.wikia.nocookie.net/dffoo/images/3/3b/Green_Crystal.jpg/revision/latest?cb=20170726064124"
+        }
+    ]
+ }

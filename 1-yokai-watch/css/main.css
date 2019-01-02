@@ -1,0 +1,83 @@
+body {
+    background-image: url('../res/images/backgrounds/texture_background_from_wildwood.png');
+}
+
+#wibwob {
+    position: absolute;
+    z-index: -1;  
+    min-width: 100%;
+    max-height: 70vh;
+    
+    box-shadow: 8px 8px 12px darkgray;
+    border-radius: 30px;
+}
+
+
+/*---- FORM ----*/
+
+.container { 
+    margin-top: 3%;
+    max-width: fit-content !important;
+}
+
+form { 
+    margin: auto; 
+}
+
+#search {
+    margin-left: 20px;
+    width: 55%;
+    padding: 2.5%;
+    transition: width .6s ease-in-out;
+}
+#search:focus { width: 70% }
+
+/*---- ICONS ---- */
+.icon-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 80%;
+    
+    margin: auto;
+    margin-top: 25px;
+
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: hsla(255, 100%, 100%, 0.5);
+}
+
+.tribe-icon { 
+    max-height: 45px; 
+    margin: 10px;
+}
+.tribe-icon:active { margin-bottom: -10px }
+.tribe-icon:hover { 
+    transform: scale(1.1); 
+    transition: transform .3s ease-in-out; 
+}
+.greyscale { filter: grayscale(100%) }
+
+.rank-icon { 
+    max-height: 70px; 
+    margin: 10px;
+}
+
+#btn-submit {
+    width: 80%;
+    height: 50px;
+
+    margin: auto;
+    margin-top: 20px;
+
+    background-color: cornsilk;
+}
+
+#btn-submit:hover {
+    background-color: ghostwhite;
+    transform: scale(1.1);
+    box-shadow: 4px 4px 15px silver;
+    transition: all .5s ease-in-out;
+}

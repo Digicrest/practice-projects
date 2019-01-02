@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>PokePal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="libs/css/bootstrap/bootstrap.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- bootstrap select css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/css/bootstrap-select.min.css">
+
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round" rel="stylesheet">
+ 
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/profile.css" />
+    <link rel="stylesheet" href="css/login.css" />
+    <link rel="stylesheet" href="css/warning.css">
+    <link rel="stylesheet" href="css/index.css" />
+</head>
+<body>
+    <button class="btn btn-block btn-danger" onclick="GoToSite()" style="margin-top: 10px">
+        <strong>Important: </strong>Visit the Live Site: <a href="#"><em>http://pokepal.digicrest.co.uk/</em></a>
+    </button>
+    <div id="main-container" class="container">
+        <div class="row">
+            <div id="left-side-panel" class="col-sm-2">
+                <div id="chosen-amount">
+                    <p id="chosen-num">0</p>
+                    <p> / 6</p>
+                </div>
+                <div id="selected-team">
+                </div>
+                <div id="team-saver">
+                    <input id="team-name-entry" type="text" class="form-control" placeholder="Team Name"/>
+                    <button id="btn-save-team" class="btn disabled btn-block btn-sm btn-rounded btn-dark" onclick="ShowLiveSite()">Save Team</button>
+                </div>
+            </div>
+            <div id="main-content" class="col-sm-8" >
+                <div id="searchbar">
+                    <p id="search-result-count">0 results</p>
+                    <input autocomplete="off" type="text" id="search" placeholder="Search..." class="form-control" onkeyup="SuggestSearch(this.value)" onfocus="$('#autocompletions').fadeIn(500)">
+                    <div id="autocompletions" onclick="$('#autocompletions').fadeOut(500)"></div>
+                </div>
+
+                <div id="pokemon-list" class="row"></div>
+            </div>
+            <div id="right-side-panel" class="col-sm-2">
+                <div id="filters">
+                    <select class="selectpicker form-control show-menu-arrow" multiple title="Filters..." data-selected-text-format="count > 3">
+                      <optgroup label="Generation">
+                        <option>I</option>
+                        <option>II</option>
+                        <option>III</option>
+                        <option>IV</option>
+                        <option>V</option>
+                        <option>VI</option>
+                        <option>VII</option>
+                        <option>VIII</option>
+                      </optgroup>
+                      <optgroup label="Types" data-max-options="2">
+                        <option style="background: #f5ac78; color: #9c531f;">Fire</option>
+                        <option style="background: #9db7f5; color: #445e9c;">Water</option>
+                        <option style="background: #c6b7f5; color: #6d5e9c;">Flying</option>
+                      </optgroup>
+                    </select>
+                </div>
+                
+                <div id="type-chart"></div>
+                <button id="btn-delete-team" class="btn btn-block btn-sm btn-rounded btn-dark" onclick="ClearSelectedTeam()">
+                    Delete Team
+                </button>
+                <div id="my-teams"></div>
+            </div>
+        </div>
+    </div>
+    <div id="warning" class="container">
+        <div id="warning-image-div">
+            <img id="warning-image" src="./img/haunter.png" onclick="ToggleWarning()" alt="Security Warning"> <!--onclick="Haunted()"-->
+            <!-- <img src="" alt="" id="haunted"> -->
+        </div>
+        
+        <div id="warning-text">
+            <h4>Trainer Beware!</h4>
+            <p>This 'website' is really just a test-bed for me to practice programming, it is <strong>NOT secure.</strong></p>
+            <p>Passwords are currently sent to the database and stored in plain text, so if you choose to register please use a unique password not in use elsewhere.</p>
+            <button class="btn btn-block btn-danger" onclick="ToggleWarning()">I Understand</button>
+        </div>
+    </div>
+    
+    <!-- jquery.js -->
+    <script src="libs/js/jquery/jquery.js"></script>
+    
+    <!--bootstrap js-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    <!-- bootstrap select js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.min.js"></script>
+
+    <!--Custom JS-->
+    <script src="js/PokeAPI.js"></script>
+    <script src="js/profile.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/matchup.js"></script>
+</body>
+</html>
