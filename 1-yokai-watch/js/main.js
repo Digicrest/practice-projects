@@ -97,7 +97,7 @@ $(document).ready(function(){
 
     // Fetch yokai data from github and populate local list.
     $.ajax({
-        url: "https://raw.githubusercontent.com/Digicrest/JavaScript/master/simple-sites/1-yokai-watch/res/json/wibble-wobble/eu/yokai.json",
+        url: "https://raw.githubusercontent.com/Digicrest/practice-projects/master/1-yokai-watch/res/json/wibble-wobble/eu/yokai.json",
         context: document.body,
         contentType: "text/plain",
         success: json => {
