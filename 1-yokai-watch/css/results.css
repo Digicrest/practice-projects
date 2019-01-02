@@ -1,11 +1,22 @@
+h4 {
+    text-align: center;
+}
+
+#results-box {
+    max-height: 360px;
+    min-height: 360px;
+    min-width: 200px;
+    max-width: 600px;
+    overflow: auto;
+    margin: auto;
+    margin-top: 40px;
+    box-shadow: 2px 2px 5px #444;
+}
+
 #results {
     display: flex;
     flex-wrap: wrap; 
     justify-content: center;
-    overflow: auto;
-    
-    margin-top: 10%;
-    max-height: 27vh;
 }
 
 .japanese {
@@ -13,13 +24,12 @@
 }
 
 .card {
-    width: 28%;
+    background-color: blue;
+    width: 25%;
     margin: 10px;
     
     text-align: center;
     color: white;
-    
-    background-color: black;
 }
 
 .card img {
@@ -32,4 +42,8 @@
     
     border-radius: 50%;
     background-color: white;
+}
+
+#results img[alt]:after {
+    content: attr(alt);
 }

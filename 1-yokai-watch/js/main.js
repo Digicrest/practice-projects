@@ -62,12 +62,15 @@ function set_color(tribe){
 
 const squash_name = name => $.trim(name).split(' ').join('');
 
-function build_yokai_div(yokai){
+function build_yokai_div(yokai) {
+    const images = "https://raw.githubusercontent.com/Digicrest/practice-projects/master/1-yokai-watch/res/images/yokai"
+    const image_path = `${images}/${yokai.tribe}/${yokai.rank}/${yokai.name}.png`;
+
     let colors = set_color(yokai.tribe);
 
     let yokai_element = `    
         <p class="name">[<span class="rank">${yokai.rank || "?"}</span>] ${yokai.name}<br><span class="japanese">${yokai.japanese}<br><em>${yokai.romaji}</em></span></p>
-        <img src="../res/images/yokai/${yokai.tribe}/${yokai.rank}/${yokai.name}.png" style="border: 5px solid ${colors.border};">
+        <img src="${image_path}" alt="" style="border: 5px solid ${colors.border};">
         <p class="tribe">${yokai.tribe}</p>
     `;
 
@@ -84,7 +87,7 @@ function build_yokai_div(yokai){
     return div;
 }
 
-$(document).ready(function(){
+$(document).ready(function() {
     let yokai = [];
 
     // Assign Default Values to Query Object
@@ -115,23 +118,20 @@ $(document).ready(function(){
     let lbl_results = document.getElementById('lbl-results');
 
     // Add a click event to every element in elements that will toggle greyscale
-    function addToggle(elements){
-        Array
-            .from(elements)
-            .forEach(icon => {
-                icon.addEventListener('click', e => {
-                    $(icon).hasClass('greyscale') ? 
-                    $(icon).removeClass('greyscale') : 
-                    $(icon).addClass('greyscale')
-                }); 
-            });
+    function addToggle(elements) {
+        Array.from(elements).forEach(icon => {
+            icon.addEventListener('click', () => {
+                $(icon).hasClass('greyscale') ? 
+                $(icon).removeClass('greyscale') : 
+                $(icon).addClass('greyscale')
+            }); 
+        });
     }
-    
     addToggle(tribeIcons);
     addToggle(rankIcons);
 
     // Set values for our global Query Object based on state of interface elements
-    function createQuery(event){
+    function createQuery(event) {
         event.preventDefault();
 
         // find elements in list that do not have the class greyscale
@@ -143,22 +143,19 @@ $(document).ready(function(){
 
         let tempSearch = $('input')[0].value;
         
-        if (tempSearch) {
-            searchTerm = tempSearch;
-        }
+        if (tempSearch) { searchTerm = tempSearch; }
 
-        if (parseInt(searchTerm)) {
-            query.id = parseInt(searchTerm);
-        } else {
-            query.name = searchTerm;
-        }
+        if (parseInt(searchTerm)) { query.id = parseInt(searchTerm); } 
+        else { query.name = searchTerm; }
+
         query.allowed_tribes = selectedTribes;
         query.allowed_ranks = selectedRanks;
+        
         console.log(query);
         queryData();
     }
 
-    function queryData(){
+    function queryData() {
         let results = [];
 
         // ========================QUERY FUNCTIONS==========================
@@ -169,39 +166,34 @@ $(document).ready(function(){
         let fuzzyFind = (prop, arg) => yokai.filter(element => element[prop].toUpperCase().includes(arg.toUpperCase()));
 
         // ========================SEARCH BY NAME===========================
-        if(query.name !== null){
+        if (query.name !== null) {
             let yokaiFoundByName = findByStr("name", query.name)[0];
 
             // If input matches a yokai name exactly, add to results
-            if (yokaiFoundByName) { 
-                results.push(yokaiFoundByName);
-            } 
+            if (yokaiFoundByName) { results.push(yokaiFoundByName); } 
             // Otherwise if the input is found within a yokais name, return all matches
             else { 
                 let yokaiFoundByFuzzy = fuzzyFind("name", query.name);
 
-                if(yokaiFoundByFuzzy.length > 0){
+                if(yokaiFoundByFuzzy.length > 0) {
                     yokaiFoundByFuzzy.forEach(yokai => results.push(yokai));
                 }
             }
         }
 
         // ========================SEARCH BY ID=============================
-        if(query.id !== null){
+        if (query.id !== null) {
             let yokaiFoundByID = yokai.filter(n => n.id === query.id)[0];
-            if(yokaiFoundByID){
-                results.push(yokaiFoundByID);
-            }
+            if (yokaiFoundByID) { results.push(yokaiFoundByID); }
         }
 
         // ============================CLEAN UP=============================
         // first remove any yokai we have found so far that are being filtered via icons
         let prefilterCount = results.length;
-        results = 
-          results
-            .filter(yokai => 
-              query.allowed_tribes.includes(yokai.tribe) &&
-              query.allowed_ranks.includes(yokai.rank));
+        results = results.filter(yokai => 
+            query.allowed_tribes.includes(yokai.tribe) &&
+            query.allowed_ranks.includes(yokai.rank)
+        );
         
         if (prefilterCount > results.length) {
             console.log((prefilterCount - results.length) + " yokai were found, but are not of the tribe or rank selected.");
@@ -209,16 +201,15 @@ $(document).ready(function(){
 
         // ===================APPLY ADDITIONAL FILTERS======================
         if (query.name === null && query.id === null) {
-            yokai.filter(y =>
-                (y.tribe === "Boss" && (query.allowed_ranks.length === 0 || query.allowed_ranks.length === rankIcons.length))
+            yokai.filter(y => (y.tribe === "Boss" && (query.allowed_ranks.length === 0 || query.allowed_ranks.length === rankIcons.length))
                 ? query.allowed_tribes.includes(y.tribe) 
                 : query.allowed_tribes.includes(y.tribe) && query.allowed_ranks.includes(y.rank)
-            )
-            .forEach(y => results.push(y));
+            ).forEach(y => results.push(y));
         }        
     
         // print(results);
         // lbl_results.textContent = format(results);
+
         query = {
             name: null,
             id: null,

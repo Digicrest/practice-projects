@@ -6,7 +6,6 @@ body {
     position: absolute;
     z-index: -1;  
     min-width: 100%;
-    max-height: 70vh;
     
     box-shadow: 8px 8px 12px darkgray;
     border-radius: 30px;
@@ -26,11 +25,11 @@ form {
 
 #search {
     margin-left: 20px;
-    width: 55%;
+    width: 45%;
     padding: 2.5%;
     transition: width .6s ease-in-out;
 }
-#search:focus { width: 70% }
+#search:focus { width: 54% }
 
 /*---- ICONS ---- */
 .icon-box {
