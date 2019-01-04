@@ -4,4 +4,4 @@ It will also have a form for checking how many crystals are needed to reach a gi
 
 
 <s>Live @ http://dffoo.digicrest.co.uk/</s> Domain Expired
-<img src="" width="65%" />
+<img src="https://github.com/Digicrest/practice-projects/blob/master/2-dffoo/rank_calculator/_sample.gif" width="65%" />
